@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background:#23252c;
+    margin-left:auto;
+}
+
+.container{
+    background:#1c1c1c;
+    width:550px;
+    margin: 30px;
+    margin-left: 25%;
+    padding: 30px 30px;
+    border-radius: 10px 0px;
+}
+
+.info-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center;
+}
+
+.info-section > img{
+    height:320px;
+    width: 320px;
+}
+
+.info-section >h2{
+    color: #FFFFFF;
+    font-family: "Inter";
+    font-style:normal;
+    font-weight:700;
+    font-size:25px;
+    line-height: 30px;
+    text-align: center;
+    
+}
+
+.info-section >h3{
+    color:#fdc5e1;
+    font-family: "Inter";
+    font-style:normal;
+    font-weight:400;
+    font-size:13px;
+    line-height: 15px;
+    text-align: center;
+    margin-top:-15px;
+    margin-bottom:30px;
+}
+
+.info-section >a{
+    color:#FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+.buttons {
+    margin:auto;
+}
+
+.email-btn{
+    box-sizing: border-box;
+    background:#ffffff;
+    border-radius: 6px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.5);
+    padding: 9px 13px 9px 11px;
+    border: 1px solid #d1d5d8;
+    width: 247px;
+    height: 43px;
+}
+.email-btn >i{
+    width: 16px;
+    height: 16px;
+    flex:none;
+    order:0;
+    flex-grow:0;
+    color:#1e1f26;
+}
+.email-btn >h3{
+    color:#374151;
+    width:36px;
+    font-family: inter ;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    flex:none;
+    order:1;
+    flex-grow: 0;
+}
+.about-section{
+    color: #F5F5F5;
+    font-family: "Inter";
+    padding:30px;
+}
+
+.about-section >h3{
+    font-weight:700;
+    font-size:16px;
+    font-style:normal;
+    line-height: 150%;
+}
+
+.about-section > p{
+    font-weight: 400;
+    font-size: 10.25px;
+    line-height: 150%;
+}
+
+footer{
+    padding:30px;
+    margin-left:25%;
+    margin-top:-30px;
+    background:#161619;
+    width: 550px;
+    height:70px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+footer >a{
+    color:#918e9b;
+    margin:auto;
+    height:25px;
+    width:25px;
+}
+
